@@ -3,18 +3,22 @@ lockfileVersion: 5.3
 specifiers:
   bcrypt: ^5.1.1
   cors: ^2.8.5
+  debug: 2.6.9
   express: ^4.21.2
   http: ^0.0.1-security
   jsonwebtoken: ^9.0.2
+  karma-chai: 0.1.0
   sqlite: ^5.1.1
   sqlite3: ^5.1.7
 
 dependencies:
   bcrypt: 5.1.1
   cors: 2.8.5
+  debug: 2.6.9
   express: 4.21.2
   http: 0.0.1-security
   jsonwebtoken: 9.0.2
+  karma-chai: 0.1.0
   sqlite: 5.1.1
   sqlite3: 5.1.7
 
@@ -793,6 +797,13 @@ packages:
     dependencies:
       jwa: 1.4.1
       safe-buffer: 5.2.1
+    dev: false
+
+  /karma-chai/0.1.0:
+    resolution: {integrity: sha512-mqKCkHwzPMhgTYca10S90aCEX9+HjVjjrBFAsw36Zj7BlQNbokXXCAe6Ji04VUMsxcY5RLP7YphpfO06XOubdg==}
+    peerDependencies:
+      chai: '*'
+      karma: '>=0.10.9'
     dev: false
 
   /lodash.includes/4.3.0:
